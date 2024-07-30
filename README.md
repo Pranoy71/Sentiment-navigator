@@ -12,7 +12,7 @@ Sentiment Insight is a web application that allows users to predict the sentimen
 
 ## Project Structure
 
-.
+
 ├── app.py
 ├── models
 │ ├── sentiment_model.joblib
