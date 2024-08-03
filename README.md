@@ -13,16 +13,18 @@ Sentiment Insight is a web application that allows users to predict the sentimen
 ## Project Structure
 
 
--├── app.py
--├── models
--│ ├── sentiment_model.joblib
--│ ├── sentiment_model_rf.joblib
--│ └── sentiment_model_svm.joblib
--├── static
--│ ├── styles.css
--│ └── scripts.js
--└── templates
--└── index.html
+- `app.py`: Main application file.
+- `models/`: Directory containing sentiment analysis models.
+  - `sentiment_model.joblib`
+  - `sentiment_model_rf.joblib`
+  - `sentiment_model_svm.joblib`
+- `static/`: Static files (CSS, JavaScript).
+  - `styles.css`
+  - `scripts.js`
+- `templates/`: HTML templates.
+  - `index.html`
+
+## File explanation
 
 
 - `app.py`: Main Flask application file.
@@ -33,7 +35,7 @@ Sentiment Insight is a web application that allows users to predict the sentimen
 - `templates/`: Directory for HTML templates.
   - `index.html`: Main HTML template for the web app.
 
-## Installation
+
 
 ### Prerequisites
 
@@ -41,28 +43,6 @@ Sentiment Insight is a web application that allows users to predict the sentimen
 - Flask
 - Joblib
 
-### Steps
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/sentiment-insight.git
-    cd sentiment-insight
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    pip install flask joblib
-    ```
-
-3. **Run the application**:
-    ```bash
-    python app.py
-    ```
-
-4. **Open your browser and visit**:
-    ```
-    http://127.0.0.1:5000/
-    ```
 
 ## Usage
 
@@ -79,7 +59,7 @@ Sentiment Insight is a web application that allows users to predict the sentimen
     ```python
     from joblib import dump
     # Assuming `model` is your trained model
-    dump(model, 'models/your_model_name.joblib')
+    dump(model, 'models/model_name.joblib')
     ```
 
 2. **Update `app.py`** to include the new model in the models list:
@@ -95,9 +75,6 @@ Sentiment Insight is a web application that allows users to predict the sentimen
 - Edit `static/scripts.js` to change the behavior and animations.
 
 
-## Acknowledgements
-
-- Inspired by various sentiment analysis projects and web design tutorials.
 
 ## Contact
 
