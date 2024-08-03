@@ -13,16 +13,16 @@ Sentiment Insight is a web application that allows users to predict the sentimen
 ## Project Structure
 
 
-├── app.py
-├── models
-│ ├── sentiment_model.joblib
-│ ├── sentiment_model_rf.joblib
-│ └── sentiment_model_svm.joblib
-├── static
-│ ├── styles.css
-│ └── scripts.js
-└── templates
-└── index.html
+-├── app.py
+-├── models
+-│ ├── sentiment_model.joblib
+-│ ├── sentiment_model_rf.joblib
+-│ └── sentiment_model_svm.joblib
+-├── static
+-│ ├── styles.css
+-│ └── scripts.js
+-└── templates
+-└── index.html
 
 
 - `app.py`: Main Flask application file.
