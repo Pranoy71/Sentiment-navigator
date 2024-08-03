@@ -1,6 +1,6 @@
-# Sentiment Insight
+# Sentiment navigator
 
-Sentiment Insight is a web application that allows users to predict the sentiment of a given text using pre-trained machine learning models. Users can input their text, choose a machine learning model, and receive sentiment predictions such as "joy", "anger", "fear", "love", "sadness", and "surprise".
+Sentiment navigator is a web application that allows users to predict the sentiment of a given text using pre-trained machine learning models. Users can input their text, choose a machine learning model, and receive sentiment predictions such as "joy", "anger", "fear", "love", "sadness", and "surprise".
 
 ## Features
 
@@ -9,6 +9,13 @@ Sentiment Insight is a web application that allows users to predict the sentimen
 - **Responsive Design**: Optimized for use on both desktop and mobile devices.
 - **Clear Text**: Easily clear your input text with a dedicated button.
 - **Smooth Animations**: Enjoy a modern and engaging user interface with smooth animations.
+
+
+## To see the live demo, click the link 
+
+[Sentiment navigator](https://sentiment-navigator.onrender.com/)
+
+or paste the link in the browser "https://sentiment-navigator.onrender.com/"
 
 ## Project Structure
 
