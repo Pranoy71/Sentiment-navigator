@@ -94,9 +94,6 @@ Sentiment Insight is a web application that allows users to predict the sentimen
 - Edit `static/styles.css` to change the styles.
 - Edit `static/scripts.js` to change the behavior and animations.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
@@ -104,5 +101,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any inquiries or suggestions, please contact [yourname@example.com].
+For any inquiries or suggestions, please contact [bishalchdebnath@gmail.com].
 
